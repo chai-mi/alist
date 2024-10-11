@@ -14,3 +14,9 @@ directory = "./dist/"
 [[routes]]
 pattern = "alist.chaimi.cc/*"
 zone_name = "chaimi.cc"
+
+[build]
+command = """
+wget https://github.com/alist-org/alist-web/releases/latest/download/dist.tar.gz && 
+tar -zxvf dist.tar.gz --exclude=dist/static/manifest.json
+"""
