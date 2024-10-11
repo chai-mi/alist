@@ -1,0 +1,14 @@
+{
+    "name": "AList",
+    "short_name": "AList",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#000",
+    "icons": [
+        {
+            "src": "https://jsd.nn.ci/gh/alist-org/logo@main/logo.svg",
+            "sizes": "1252x1252",
+            "type": "image/svg+xml"
+        }
+    ]
+}

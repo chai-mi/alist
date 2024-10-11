@@ -7,7 +7,7 @@
     "dev": "wrangler dev",
     "start": "wrangler dev",
     "test": "vitest",
-    "build": "wget https://github.com/alist-org/alist-web/releases/latest/download/dist.zip && unzip dist.zip",
+    "build": "wget https://github.com/alist-org/alist-web/releases/latest/download/dist.zip && unzip -nq dist.zip",
     "cf-typegen": "wrangler types"
   },
   "devDependencies": {
