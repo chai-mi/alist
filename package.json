@@ -6,7 +6,6 @@
     "deploy": "wrangler deploy",
     "dev": "wrangler dev",
     "start": "wrangler dev",
-    "cf-typegen": "wrangler types",
     "build": "wget https://github.com/alist-org/alist-web/releases/latest/download/dist.tar.gz && tar -zxvf dist.tar.gz --exclude=dist/static/manifest.json"
   }
 }
