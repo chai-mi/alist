@@ -1,7 +1,7 @@
-compatibility_date = "2024-11-12"
-main = "src/index.ts"
-minify = true
 name = "alist"
+main = "src/index.ts"
+compatibility_date = "2024-12-13"
+minify = true
 upload_source_maps = true
 workers_dev = false
 
